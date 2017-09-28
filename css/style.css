@@ -1,0 +1,88 @@
+
+body {
+font-family:'Lato', sans-serif;
+}
+h1,h2,h3{
+  text-transform: uppercase;
+letter-spacing: 3px;
+font-weight: 300;
+}
+header {
+  text-align: center;
+  color: white;
+  background-color: magenta;
+background-image: url(../images/background.jpg);
+background-size:cover;
+padding: 40px;
+}
+
+
+header img {
+  border: 3px solid rgba(225,255,255,0.5);
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+div {
+  padding: 40px;
+  line-height: 1.6;
+}
+
+a {
+  color: red;
+  text-decoration:none;
+}
+
+a:hover{
+  background-color: yellow;
+}
+
+.skills {
+background-color: lightgreen;
+}
+
+footer {
+  text-align: center;
+  background: grey;
+  padding: 40px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 5px;
+
+}
+
+.row {
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+.col {
+  width: 33.33%;
+  float: left;
+  padding: 0;
+}
+
+
+.hobbies {
+  clear: both;
+}
+
+@media (max-width: 960px) {
+.row {
+  width: 100%;
+}
+
+.col {
+  width: 100%;
+}
+
+.container {
+  padding: 0;
+}
